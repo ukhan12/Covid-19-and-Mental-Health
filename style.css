@@ -32,7 +32,7 @@
 }
 .topmiddle h2{
     
-    background-color: #E2E2E2
+    background-color: #B1C0C9
 }
 
 .topright{
@@ -61,7 +61,15 @@ img{
    
    
 }
+.hide{
+    display:none;
+}
 
+/*when hovering over text it displays*/
+h2:hover + .hide{
+    display:block;
+    color:black;
+}
 
 
 
