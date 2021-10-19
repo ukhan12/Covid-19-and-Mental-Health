@@ -1,0 +1,22 @@
+*{
+    margin:0;
+}
+
+header{
+display: flex;
+flex-direction:column;
+    height: 100vh;
+    background-color: #BBA39F;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSIy4WilZEzT5XeZ1QiNWg8-a4ll61oSDIA&usqp=CAU)
+  
+}
+h1{
+    display:flex;
+    justify-content:center;
+    
+ font-size: 5em;
+    padding-top: 317px
+    
+    
+  
+}
