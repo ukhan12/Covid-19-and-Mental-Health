@@ -1,5 +1,6 @@
 *{
     margin:0;
+    font-family: 'Playfair Display', serif;
  
 }
 
@@ -7,6 +8,7 @@ body{
    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSIy4WilZEzT5XeZ1QiNWg8-a4ll61oSDIA&usqp=CAU)
    
 }
+
 
 /*.main{*/
 /*display: flex;*/
@@ -19,10 +21,12 @@ body{
 .heading h1{
     display:flex;
     justify-content:center;
-    
+    color:white;
+ 
  font-size: 5em;
-    padding-top: 270px
-    
+    /*padding-top: 260px;*/margin-top: 260px;
+    /*background-color:rgb(5, 128, 133);*/
+    background-color: rgb(167, 211, 210);
 }
 
 .links{
@@ -36,7 +40,7 @@ body{
 
 .links a {
     
-       color: black;
+       color: white;
          font-size: larger;
            text-decoration: none;
 }
@@ -75,7 +79,7 @@ main{
 /*    flex-direction:column;*/
 /*}*/
 .therapy {
-    background-color: rgb(167, 211, 210);
+    background-color: #A7D3D2;
     border:2px dotted white;
       border-radius: 10% ;
 /*    border:3px solid black;*/
@@ -84,7 +88,7 @@ main{
 /*    flex-direction:column;*/
 /*   align-content:center;*/
     width: 20vw;
-    height: 30vh;
+    height: 40vh;
     
     /*margin-left: 400px;*/
 }
@@ -102,8 +106,13 @@ main{
            text-decoration: none;
     
 }
+.therapy a:hover{
+     text-decoration: underline;
+     
+}
 .therapy ul li{
     padding: 10px 0px 10px 10px;
+    list-style-position: inside;
 }
  .financial{
       background-color:#4C5B86;
@@ -124,6 +133,10 @@ main{
          font-size: larger;
            text-decoration: none;
    }
+   .financial a:hover{
+     text-decoration: underline;
+   
+}
    
 .financial ul {
     
@@ -131,6 +144,7 @@ main{
     font-weight: bolder;
     /*list-style: none;*/
      font-size:20px;
+     list-style-position: inside;
 }
     .financial ul li{
     padding: 10px 0px 10px 10px;
@@ -161,16 +175,24 @@ main{
     /*list-style: none;*/
     padding: 0px; 
     font-size:20px;
+    list-style-position: inside;
     
 }
 .housing ul li{
     padding: 10px 0px 10px 10px;
 }
-
+.housing a:hover{
+     text-decoration: underline;
+   
+}
 .btn{
    border: none; 
-  color: white; 
+  color: black; 
 background-color: transparent;
   font-size: 50px;
     
+}
+.btn a {
+ color:black;   
+}
 }
