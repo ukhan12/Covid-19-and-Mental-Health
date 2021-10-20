@@ -1,0 +1,25 @@
+
+* { box-sizing: border-box; }
+
+#header{
+background-color:pink;
+margin:-10px;
+}
+
+/*h2{*/
+/*display:flex;*/
+/*justify-content:center;*/
+/*}*/
+ 
+ body{
+background-image:url(https://cdn.dribbble.com/users/2840222/screenshots/11479668/media/d785bb274ebee85e93825371e62e8799.png?compress=1&resize=400x300); 
+ background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.gridItem2{
+  display: flex;
+  justify-content:center;
+}
+ 
+ 
