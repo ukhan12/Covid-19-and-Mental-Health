@@ -1,23 +1,25 @@
-*{
+body{
    /*width: 100vw;*/
    /*height: 100vh;*/
     background-color: #E2E2E2;
+      font-family: 'Playfair Display', serif;
 }
 
-.heading{
-    display: flex;
-    flex-direction:column;
+/*.heading{*/
+/*    display: flex;*/
+/*    flex-direction:column;*/
    
-    align-items:center;
-}
-.heading h1{
-    margin-bottom: 0px;
-}
+/*    align-items:center;*/
+/*}*/
+/*.heading h1{*/
+/*    margin-bottom: 0px;*/
+/*}*/
 .container{
     display: grid;
       grid-template: repeat(2, 1fr)/ repeat(3, 1fr); 
-      width:100vw;
-      height:100vh;
+      width:98vw;
+      height:98vh;
+      
 }
 .topleft{
     color:white;
@@ -30,9 +32,15 @@
      grid-area: 1/2/1/2;
     background-color:#B1C0C9;
 }
-.topmiddle h2{
-    
+.topmiddle h1{
+
+    padding-top:  130px ;
+ text-align: center;
+     font-size: 4em;
+   text-decoration: none;
+   
     background-color: #B1C0C9
+    
 }
 
 .topright{
@@ -63,14 +71,104 @@ img{
 }
 .hide{
     display:none;
+    
 }
 
 /*when hovering over text it displays*/
-h2:hover + .hide{
-    display:block;
-    color:black;
+/*h1:hover + .hide{*/
+/*    display:block;*/
+/*    color:black;*/
+/*}*/
+
+/*.hide{*/
+/*    text-align: center;*/
+/*}*/
+.bottomleft h1{
+    padding-top: 130px ;
+ text-align: center;
+     font-size: 4em;
+   
+   
+    background-color: #CEF5F3
+}
+.bottomright h1{
+    padding-top: 130px ;
+ text-align: center;
+     font-size: 4em;
+   
+   
+    background-color: #FCDFC9
 }
 
-
+@media (max-width: 900px) {
+ .container {
+    
+ display: grid;
+      
+      grid-template: repeat(3, 1fr)/ repeat(2, 1fr); 
+      width:98vw;
+      height:98vh;
+      
+ }
+ .topleft{
+   
+     grid-area: 1/1/1/1;
+    background-color: red;
+    overflow: hidden
+ }
+ .topmiddle{
+     
+     grid-area: 1/2/1/2;
+    background-color: white;
+    overflow: hidden;
+   
+ }
+ 
+ .bottomleft{
+      grid-area: 2/1/2/1;
+    background-color: white;
+    overflow: hidden
+ }
+ .bottommiddle{ 
+     grid-area: 2/2/2/2;
+    background-color: white;
+    overflow: hidden
+}
+.topright{
+     grid-area: 3/1/3/1;
+    background-color: white;
+    overflow: hidden
+}
+.bottomright{
+     grid-area: 3/2/3/2;
+    background-color: white;
+    overflow: hidden
+}
+.topmiddle h1{
+    margin: auto;
+   
+ text-align: center;
+     font-size: 2em;
+   padding-bottom:163px;
+   
+    background-color: #B1C0C9
+}
+.bottomleft h1{
+    margin: auto;
+   
+ text-align: center;
+     font-size: 2em;
+   padding-bottom:163px;
+   background-color: #CEF5F3
+}
+.bottomright h1{
+    margin: auto;
+   
+ text-align: center;
+     font-size: 2em;
+   padding-bottom:163px;
+  background-color: #FCDFC9
+}
+}
 
 
