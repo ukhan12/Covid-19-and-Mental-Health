@@ -82,13 +82,14 @@ main{
     background-color: #A7D3D2;
     border:2px dotted white;
       border-radius: 10% ;
+      box-sizing:border-box;
 /*    border:3px solid black;*/
 /*    border-radius: 10% 30% 50% 70%;*/
 /*    display: flex;*/
 /*    flex-direction:column;*/
 /*   align-content:center;*/
     width: 20vw;
-    height: 40vh;
+    /*height: 40vh;*/
     
     /*margin-left: 400px;*/
 }
@@ -118,6 +119,7 @@ main{
       background-color:#4C5B86;
     border:2px dotted white;
       border-radius: 10% ;
+       
          width: 20vw;
 /*    border:3px solid black;*/
 /*    border-radius: 30% 10% 70% 50%;*/
@@ -125,7 +127,7 @@ main{
 /*    flex-direction:column;*/
 /*   align-content:center;*/
 /*    width: 30vw;*/
-    height: 30vh;
+    /*height: 400px;*/
  }
 .financial  a {
 
@@ -159,7 +161,7 @@ main{
 /*    flex-direction:column;*/
 /*   align-content:center;*/
 /*    width: 30vw;*/
-    height: 30vh;
+    /*height: 30vh;*/
 } 
     
 
