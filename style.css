@@ -75,14 +75,14 @@ img{
 }
 
 /*when hovering over text it displays*/
-h1:hover + .hide{
-    display:block;
-    color:black;
-}
+/*h1:hover + .hide{*/
+/*    display:block;*/
+/*    color:black;*/
+/*}*/
 
-.hide{
-    text-align: center;
-}
+/*.hide{*/
+/*    text-align: center;*/
+/*}*/
 .bottomleft h1{
     padding-top: 130px ;
  text-align: center;
