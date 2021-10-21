@@ -6,12 +6,12 @@ background-color:pink;
 margin:-10px;
 }
 
-header>a{
+#header a{
   text-align: center;
   padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-  font-size: 36px;
+  /*transition: all 0.3s ease;*/
+  /*color: white;*/
+  font-size: 20px;
 }
 
 h2{
@@ -26,13 +26,29 @@ background-image:url(https://cdn.dribbble.com/users/2840222/screenshots/11479668
 
 .contactForm form{
  display: flex;
-/* display:grid;*/
-/* grid-template-columns:repeat, 1fr;*/
+ flex-wrap: wrap;
+ width: 80%;
+ justify-content: center;
+ background:pink;
+ margin:0 auto;
 }
 
-/*.gridItem2{*/
-/*  display: grid;*/
-/*  justify-content:center;*/
-/*}*/
- 
+.contactForm{
+ margin: 0 auto;
+ width: 300px;
+ background: grey;
+ padding: 1px;
+}
+label, input{
+ display: block;
+}
+
+form div{
+margin: 10px; 
+}
+
+.contactForm h2{
+ text-align: center;
+}
+
  
