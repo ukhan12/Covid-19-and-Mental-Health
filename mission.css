@@ -18,8 +18,9 @@ h2{
 display: flex;
 justify-content:center;
 }
+
  body{
-background-image:url(https://cdn.dribbble.com/users/2840222/screenshots/11479668/media/d785bb274ebee85e93825371e62e8799.png?compress=1&resize=400x300); 
+background-image:url(https://media.self.com/photos/5eeba8e104386d2faa9a306c/4:3/w_2560%2Cc_limit/Arms-raised-color-powder.jpg); 
  background-repeat: no-repeat;
   background-size:cover;
 }
@@ -29,15 +30,15 @@ background-image:url(https://cdn.dribbble.com/users/2840222/screenshots/11479668
  flex-wrap: wrap;
  width: 80%;
  justify-content: center;
- background:pink;
+ background:transparent;
  margin:0 auto;
 }
 
 .contactForm{
  margin: 0 auto;
  width: 300px;
- background: grey;
- padding: 1px;
+ background: transparent;
+ /*padding: 10px;*/
 }
 label, input{
  display: block;
@@ -51,4 +52,19 @@ margin: 10px;
  text-align: center;
 }
 
+.btn1{
+    margin:0;
+   
+   /*border: 20px;*/
+  /*color: black;*/
+  background-color:transparent;
+  font-size: 50px;
+}
+.btn1 a {
+ color:black;
+}
+.button{
+    display:flex;
+    justify-content: flex-start;
+}
  
