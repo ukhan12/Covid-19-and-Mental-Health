@@ -69,7 +69,9 @@ main{
 }
 .box2{
     display:flex;
-     justify-content:center;
+      justify-content:space-around;
+      margin-top: 120px;
+      margin-bottom: 50px;
 }
 
 
@@ -184,7 +186,8 @@ main{
     padding: 10px 0px 10px 10px;
 }
 .housing a:hover{
-     text-decoration: underline;
+    text-decoration: underline;
+     /*text-decoration-style:wavy;*/
    
 }
 .btn{
@@ -197,4 +200,77 @@ background-color: transparent;
 .btn a {
  color:black;   
 }
+
+.food{
+   
+    background-color: #058085;
+    
+    border:2px dotted white;
+      border-radius: 10% ;
+         width: 20vw;
+/*    display: flex;*/
+/*    flex-direction:column;*/
+/*   align-content:center;*/
+/*    width: 30vw;*/
+    /*height: 30vh;*/
+} 
+   .food a {
+
+       color: black;
+         font-size: larger;
+           text-decoration: none;
+   }
+    
+.food ul{
+    font-weight: bolder;
+    /*list-style: none;*/
+    padding: 0px; 
+    font-size:20px;
+    list-style-position: inside;
+    
 }
+.food ul li{
+    padding: 10px 0px 10px 10px;
+}
+.food a:hover{
+    text-decoration: underline;
+     /*text-decoration-style:wavy;*/
+   
+}
+
+@media (max-width:900px){
+    .heading h1{
+       
+        margin-top: 100px;
+        width: 100vw;
+    }
+.links{
+    margin-top: 0px;
+}
+.box1{
+    flex-direction:column;
+    align-items:center;
+    
+}
+.therapy{
+    width: 60vw;
+    margin-bottom: 50px;
+}
+.financial{
+     width: 60vw;
+}
+.box2{
+    flex-direction:column;
+    align-items:center;
+    
+}
+.housing{
+     width: 60vw;
+     margin-bottom: 50px;
+}
+.food{
+     width: 60vw;
+}
+}
+
+
