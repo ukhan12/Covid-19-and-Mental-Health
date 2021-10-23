@@ -80,6 +80,7 @@ p{
     height: 40vh;
     margin-top:14%;
     margin-left:-10%;
+
 }
 
 .img{
@@ -122,4 +123,24 @@ p{
 .img2{
     height:50vh;
     width:30vw;
+}
+
+@media only screen and (max-width:600px){
+    
+    .block1{
+      font-size:4vw;  
+      min-width: 4vh;
+    }
+    
+    .block2{
+        font-size:4vw;
+    }
+    .sub-block1{
+        display:none;
+    }
+    
+    .sub-block2{
+        display:none;
+    }
+    
 }
