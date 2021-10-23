@@ -62,13 +62,16 @@ section>div>h1{
     display:flex;
 }
 
+p{
+    margin:0%;
+}
+
 .block1{
     background-color: #6A8CB2 ;
     height:40vh;
     width:70vw;
     margin-top: 5%;
-    font-size: 2em;
-    
+    font-size: 3vw;;
 }
 
 .sub-block1{
@@ -98,7 +101,8 @@ section>div>h1{
     height:50vh;
     width:70vw;
     margin-top: 10%;
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
+    font-size: 2vw;
 }
 
 .sub-block2{
