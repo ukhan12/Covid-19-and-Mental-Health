@@ -191,10 +191,10 @@ main{
    
 }
 .btn{
-   border: none; 
+   border:none;
   color: black; 
 background-color: transparent;
-  font-size: 50px;
+  font-size: 35px;
     
 }
 .btn a {
@@ -238,6 +238,18 @@ background-color: transparent;
    
 }
 
+nav {
+    /*position: fixed;*/
+    display: flex;
+    flex-direction:column;
+    padding-right:1500px;
+    height: 7vh;
+    position:fixed;
+    top:0px;
+    
+    /*padding-bottom: 200px;*/
+
+}
 @media (max-width:900px){
     .heading h1{
        
