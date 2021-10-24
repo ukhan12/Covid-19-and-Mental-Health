@@ -1,4 +1,7 @@
 /** { box-sizing: border-box; }*/
+*{
+  font-family: 'Playfair Display', serif;
+}
 
 #header {
  background-color: pink;
@@ -11,21 +14,27 @@
  /*transition: all 0.3s ease;*/
  /*color: white;*/
  font-size: 20px;
- font-family: magica;
+
 }
 
 .mt {
+ /*width:60vw;*/
+ text-align: center;
  display: flex;
+ /*padding-left: 545px;*/
+ /*flex-direction:row;*/
  justify-content: center;
  margin-top: 5%;
- font-family: magica;
+ font-weight: bolder;
+ 
 
 }
 
 body {
- background-image: url(https://media.self.com/photos/5eeba8e104386d2faa9a306c/4:3/w_2560%2Cc_limit/Arms-raised-color-powder.jpg);
+ background-image: url(mission1.jpg);
  background-repeat: no-repeat;
  background-size: cover;
+
 }
 
 .contactForm form {
@@ -35,9 +44,11 @@ body {
  justify-content: center;
  background: transparent;
  margin: 0 auto;
+ 
 }
 
 .contactForm {
+ padding-top: 50px;
  margin: 0 auto;
  width: 300px;
  background: transparent;
@@ -55,25 +66,29 @@ form div {
 
 .contactForm h2 {
  text-align: center;
- font-family: magica;
+  background:rgb(253, 224, 206,0.7);
+  font-weight:bold;
+
 }
 
 .btn1 {
- margin: 10;
-
+ margin: 0;
+/*padding-bottom:  0px;*/
  /*border: 20px;*/
  /*color: black;*/
  background-color: transparent;
  font-size: 50px;
+ border:none;
 }
 
 .btn1 a {
  color: black;
- position: relative;
+ /*position: relative;*/
  bottom: 10px;
 }
 
 .button {
+margin: 0px;
  display: flex;
  justify-content: flex-start;
 }
@@ -85,7 +100,14 @@ form div {
  flex-direction: column;
  margin-left: 10%;
  margin-right: 10%;
- font-family: Magica;
- background:pink;
+ font-weight:bolder;
+ background:rgb(253, 224, 206,0.7);
 
 }
+.mission h5{
+ font-weight: bolder;
+}
+.mission h2{
+ font-weight: bolder;
+}
+
