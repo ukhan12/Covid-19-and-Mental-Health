@@ -34,7 +34,7 @@ body{
 }
 .topmiddle h1{
 
-    padding-top:  130px ;
+    /*padding-top:  130px ;*/
  text-align: center;
      font-size: 4em;
    text-decoration: none;
@@ -75,16 +75,18 @@ img{
 }
 
 /*when hovering over text it displays*/
-/*h1:hover + .hide{*/
-/*    display:block;*/
-/*    color:black;*/
-/*}*/
+h1:hover + .hide{
+    display:block;
+    color:black;
+   
+}
 
-/*.hide{*/
-/*    text-align: center;*/
-/*}*/
+.hide{
+    text-align: center; 
+    font-weight: bolder;
+}
 .bottomleft h1{
-    padding-top: 130px ;
+    padding-top: 110px ;
  text-align: center;
      font-size: 4em;
    
@@ -92,7 +94,7 @@ img{
     background-color: #CEF5F3
 }
 .bottomright h1{
-    padding-top: 130px ;
+    padding-top: 110px ;
  text-align: center;
      font-size: 4em;
    
@@ -146,7 +148,7 @@ img{
 }
 .topmiddle h1{
     margin: auto;
-   
+   padding-top: 90px;
  text-align: center;
      font-size: 2em;
    padding-bottom:163px;
@@ -168,6 +170,13 @@ img{
      font-size: 2em;
    padding-bottom:163px;
   background-color: #FCDFC9
+}
+
+
+h1:hover {
+    display:block;
+    color:black;
+   text-decoration: underline;
 }
 }
 
