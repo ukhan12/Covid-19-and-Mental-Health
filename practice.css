@@ -1,0 +1,14 @@
+.btn{
+  margin:0;
+  color: black;
+  background-color:transparent;
+  font-size: 50px;
+}
+.btn a {
+ color:black;
+}
+
+.button{
+    display:flex;
+    justify-content: flex-start;
+}
