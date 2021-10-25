@@ -59,7 +59,7 @@ nav {
 }
 
 section>div>p{
-    font-size:20px;
+    font-size:18px;
     /*margin-top: 2%;*/
    
 }
@@ -81,11 +81,13 @@ p{
 }
 
 .block1{
-    background-color: #6A8CB2 ;
-    height:40vh;
+    background-color: #F68B69;
+    height:60vh;
     width:70vw;
-    margin-top: 5%;
-    font-size: 3vw;;
+    margin-top: 10%;
+    /*font-size: 1.5em;*/
+    font-size: 1.6vw;
+    
 }
 
 .sub-block1{
@@ -104,6 +106,7 @@ p{
 
 .paragraph1{
     margin-right: 15%;
+    margin-left: 1%
 }
 
 .container2{
@@ -112,20 +115,20 @@ p{
 }
 
 .block2{
-    background-color: #F68B69;
+
+    background-color: #6A8CB2 ;
     height:60vh;
     width:70vw;
-    margin-top: 10%;
-    /*font-size: 1.5em;*/
-    font-size: 2vw;
+    margin-top: 5%;
+    font-size: 3vw;;
 }
 
 .sub-block2{
     background-color: #FBE5CA;
-    width: 30vw;
-    height: 50vh;
-    margin-top:17%;
-    margin-right:-10%;
+    width: 25vw;
+    height: 40vh;
+    margin-top:13%;
+    margin-right:-5%;
     z-index: 1;
     
 }
@@ -139,7 +142,71 @@ p{
     width:30vw;
 }
 
-@media only screen and (max-width:600px){
+.cont3{
+    display: flex;
+    justify-content: space-between; 
+    margin-right:10%;
+}
+
+.graph1{
+    margin-top:5%;
+    height:50vh;
+    width:30vw;
+}
+
+.graph2{
+    margin-top:5%;
+    height:50vh;
+    width:30vw;
+    margin-right:5%;
+}
+
+.block3cont{
+    display:flex;
+    justify-content:center;
+    margin-top: 36%;
+
+}
+.block3{
+    
+    background-color: #F68B69;
+    height:60vh;
+    width:90vw;
+    /*font-size: 1.5em;*/
+    font-size: 2vw;
+}
+
+.par3{
+    margin-left:1%;
+    margin-top:1%;
+}
+
+.citing{
+    display: flex;
+    justify-content:center;
+}
+
+.block4{
+    
+    background-color: #E5E5E5;
+    height:35vh;
+    width:90vw;
+    /*font-size: 1.5em;*/
+    font-size: 2vw;
+    margin-top: 10%;
+}
+
+ol{
+    margin-top:-3%;
+}
+li{
+    color:#74767a;
+    font-size: 15px;
+}
+
+
+
+@media only screen and (max-width:800px){
     
     
     section>div>p{
@@ -148,15 +215,26 @@ p{
    
 }
 
+.container2{
+    display:flex;
+    justify-content: flex-end;
+}
+
     .block1{
       font-size:4vw;  
       width: 100%;
+      height: 85vh
     }
     
     .block2{
-        font-size:4vw;
-        height: 85vh;
+       font-size:4vw;
+       width: 100%;
     }
+    
+    .paragraph2{
+        margin-left: 1%;
+    }
+    
     .sub-block1{
         display:none;
     }
@@ -165,4 +243,17 @@ p{
         display:none;
     }
     
+    .cont3{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .graph2{
+        margin-top:60%;
+    }
+    
+    .block3cont{
+    margin-top: 58%;
+}
+  
 }
