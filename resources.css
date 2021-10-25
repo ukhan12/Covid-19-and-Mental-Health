@@ -1,0 +1,288 @@
+*{
+    margin:0;
+    font-family: 'Playfair Display', serif;
+ 
+}
+
+body{
+   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVSIy4WilZEzT5XeZ1QiNWg8-a4ll61oSDIA&usqp=CAU)
+   
+}
+
+
+/*.main{*/
+/*display: flex;*/
+/*flex-direction:column;*/
+/*    height: 100vh;*/
+/*    background-color: #BBA39F;*/
+    
+  
+/*}*/
+.heading h1{
+    display:flex;
+    justify-content:center;
+    color:white;
+ 
+ font-size: 5em;
+    /*padding-top: 260px;*/margin-top: 260px;
+    /*background-color:rgb(5, 128, 133);*/
+    background-color: rgb(167, 211, 210);
+}
+
+.links{
+    
+    display: flex;
+    justify-content:space-around;
+     margin-top: 310px;
+     background-color: rgb(167, 211, 210);
+}
+   
+
+.links a {
+    
+       color: white;
+         font-size: larger;
+           text-decoration: none;
+}
+main{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    flex-wrap:wrap;
+   padding-top: 210px;
+  
+    /*display:grid;*/
+    /*grid-template: repeat(2,1fr) /repeat(2,1fr)*/
+    /*width:;*/
+
+}
+.htext{
+    text-align: center;
+    padding:30px 0px 30px 0px; 
+   border-bottom: 2px dotted white;
+   font-size:30px;
+}
+.box1{
+    display:flex;
+     justify-content:space-around;
+   
+}
+.box2{
+    display:flex;
+      justify-content:space-around;
+      margin-top: 120px;
+      margin-bottom: 50px;
+}
+
+
+
+/*.therapy{*/
+/*    display:flex;*/
+/*    flex-direction:column;*/
+/*}*/
+.therapy {
+    background-color: #A7D3D2;
+    border:2px dotted white;
+      border-radius: 10% ;
+      box-sizing:border-box;
+/*    border:3px solid black;*/
+/*    border-radius: 10% 30% 50% 70%;*/
+/*    display: flex;*/
+/*    flex-direction:column;*/
+/*   align-content:center;*/
+    width: 20vw;
+    /*height: 40vh;*/
+    
+    /*margin-left: 400px;*/
+}
+
+.therapy ul {
+    
+    padding: 0px;
+    font-weight: bolder;
+     font-size:20px;
+    /*list-style: none;*/
+}
+.therapy a {
+     color: black;
+         font-size: larger;
+           text-decoration: none;
+    
+}
+.therapy a:hover{
+     text-decoration: underline;
+     
+}
+.therapy ul li{
+    padding: 10px 0px 10px 10px;
+    list-style-position: inside;
+}
+ .financial{
+      background-color:#4C5B86;
+    border:2px dotted white;
+      border-radius: 10% ;
+       
+         width: 20vw;
+/*    border:3px solid black;*/
+/*    border-radius: 30% 10% 70% 50%;*/
+/*    display: flex;*/
+/*    flex-direction:column;*/
+/*   align-content:center;*/
+/*    width: 30vw;*/
+    /*height: 400px;*/
+ }
+.financial  a {
+
+       color: black;
+         font-size: larger;
+           text-decoration: none;
+   }
+   .financial a:hover{
+     text-decoration: underline;
+   
+}
+   
+.financial ul {
+    
+    padding: 0px;
+    font-weight: bolder;
+    /*list-style: none;*/
+     font-size:20px;
+     list-style-position: inside;
+}
+    .financial ul li{
+    padding: 10px 0px 10px 10px;
+}
+.housing{
+    background-color: rgb(249, 182, 165);
+    
+    border:2px dotted white;
+      border-radius: 10% ;
+         width: 20vw;
+/*    display: flex;*/
+/*    flex-direction:column;*/
+/*   align-content:center;*/
+/*    width: 30vw;*/
+    /*height: 30vh;*/
+} 
+    
+
+   .housing  a {
+
+       color: black;
+         font-size: larger;
+           text-decoration: none;
+   }
+    
+.housing ul{
+    font-weight: bolder;
+    /*list-style: none;*/
+    padding: 0px; 
+    font-size:20px;
+    list-style-position: inside;
+    
+}
+.housing ul li{
+    padding: 10px 0px 10px 10px;
+}
+.housing a:hover{
+    text-decoration: underline;
+     /*text-decoration-style:wavy;*/
+   
+}
+.btn{
+   border:none;
+  color: black; 
+background-color: transparent;
+  font-size: 35px;
+    
+}
+.btn a {
+ color:black;   
+}
+
+.food{
+   
+    background-color: #058085;
+    
+    border:2px dotted white;
+      border-radius: 10% ;
+         width: 20vw;
+/*    display: flex;*/
+/*    flex-direction:column;*/
+/*   align-content:center;*/
+/*    width: 30vw;*/
+    /*height: 30vh;*/
+} 
+   .food a {
+
+       color: black;
+         font-size: larger;
+           text-decoration: none;
+   }
+    
+.food ul{
+    font-weight: bolder;
+    /*list-style: none;*/
+    padding: 0px; 
+    font-size:20px;
+    list-style-position: inside;
+    
+}
+.food ul li{
+    padding: 10px 0px 10px 10px;
+}
+.food a:hover{
+    text-decoration: underline;
+     /*text-decoration-style:wavy;*/
+   
+}
+
+nav {
+    /*position: fixed;*/
+    display: flex;
+    flex-direction:column;
+    padding-right:1500px;
+    height: 7vh;
+    position:fixed;
+    top:0px;
+    
+    /*padding-bottom: 200px;*/
+
+}
+@media (max-width:900px){
+    .heading h1{
+       
+        margin-top: 100px;
+        width: 100vw;
+    }
+.links{
+    margin-top: 0px;
+}
+.box1{
+    flex-direction:column;
+    align-items:center;
+    
+}
+.therapy{
+    width: 60vw;
+    margin-bottom: 50px;
+}
+.financial{
+     width: 60vw;
+}
+.box2{
+    flex-direction:column;
+    align-items:center;
+    
+}
+.housing{
+     width: 60vw;
+     margin-bottom: 50px;
+}
+.food{
+     width: 60vw;
+}
+}
+
+
