@@ -5,6 +5,7 @@ body{
     
 }
 
+
 nav {
     display: flex;
     flex-direction:column;
@@ -30,7 +31,7 @@ nav {
   margin:0;
   color: black;
   background-color:transparent;
-  font-size: 50px;
+  /*font-size: 50px;*/
   border: none;
 }
 .btn a {
@@ -52,12 +53,12 @@ nav {
     width:120vh;
 }
 
-section>div>p{
-    font-size:20px;
-}
+/*section>div>p{*/
+/*    font-size:10px;*/
+/*}*/
 
 section>div>h1{
-    font-size:3em;
+    /*font-size:3em;*/
     font-family: 'Playfair Display', serif;
 }
 
@@ -79,8 +80,7 @@ p{
     height:40vh;
     width:70vw;
     margin-top: 5%;
-    font-size: 3vw;
-    font-family: 'Playfair Display', serif;
+    /*font-size: 3vw;*/
 }
 
 .sub-block1{
@@ -99,7 +99,6 @@ p{
 
 .paragraph1{
     margin-right: 15px;
-    font-family: 'Playfair Display', serif;
     margin-top:2%;
 }
 
@@ -113,9 +112,6 @@ p{
     height:50vh;
     width:70vw;
     margin-top: 10%;
-    /*font-size: 1.5em;*/
-    font-size: 2vw;
-    font-family: 'Playfair Display', serif;
 }
 
 .sub-block2{
@@ -129,10 +125,10 @@ p{
 }
 
 .paragraph2{
-    margin-left: 5px;
+    margin-left: 15px;
     font-family: 'Playfair Display', serif;
     margin-top:2%;
-    margin-left:15%;
+    /*font-size:10px;*/
 }
 
 .img2{
@@ -148,17 +144,17 @@ p{
     }
     
     section>div>p{
-    font-size:15px;
+    /*font-size:25px;*/
     margin-top: 2%;
 }
     
     .block1{
-      font-size:20px;  
+      /*font-size:20px;  */
       min-width: 4vh;
     }
     
     .block2{
-        font-size:20px;
+        /*font-size:20px;*/
         height: 60vh;
     }
     .sub-block1{

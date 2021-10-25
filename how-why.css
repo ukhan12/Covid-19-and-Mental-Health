@@ -1,6 +1,8 @@
 
 body{
-     background-color: #f6b3ad;
+    background-color: #f6b3ad;
+    font-family: 'Playfair Display', serif;
+
     /*border-sizing: border-box;*/
     
 }
@@ -10,6 +12,16 @@ body{
     background:url(DiversityGroup.jpg);
     height: 98vh;
     /*justify-content: center;*/
+}
+
+
+nav {
+    display: flex;
+    /*flex-direction:column;*/
+    padding-right:1500px;
+    height: 7vh;
+    position:fixed;
+    top:0px;
 }
 
 .sub-container{
@@ -24,6 +36,7 @@ body{
   color: black;
   background-color:transparent;
   font-size: 50px;
+  border:none;
 }
 .btn a {
  color:black;
@@ -46,8 +59,8 @@ body{
 }
 
 section>div>p{
-    font-size:1.3vw;
-    margin-top: 2%;
+    font-size:20px;
+    /*margin-top: 2%;*/
    
 }
 section>div>h1{
@@ -100,7 +113,7 @@ p{
 
 .block2{
     background-color: #F68B69;
-    height:50vh;
+    height:60vh;
     width:70vw;
     margin-top: 10%;
     /*font-size: 1.5em;*/
@@ -128,13 +141,21 @@ p{
 
 @media only screen and (max-width:600px){
     
+    
+    section>div>p{
+    font-size:15px;
+    margin-top: 2%;
+   
+}
+
     .block1{
       font-size:4vw;  
-      min-width: 4vh;
+      width: 100%;
     }
     
     .block2{
         font-size:4vw;
+        height: 85vh;
     }
     .sub-block1{
         display:none;
