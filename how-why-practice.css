@@ -1,27 +1,22 @@
 body{
      background-color: #f6b3ad;
     /*border-sizing: border-box;*/
+    font-family: 'Playfair Display', serif;
     
 }
 
 nav {
-    /*position: fixed;*/
     display: flex;
     flex-direction:column;
     padding-right:1500px;
     height: 7vh;
     position:fixed;
     top:0px;
-    
-    /*padding-bottom: 200px;*/
-
 }
 
 .top-half{ 
-    /*display: flex;*/
     background:url(DiversityGroup.jpg);
     height: 98vh;
-    /*justify-content: center;*/
 }
 
 .sub-container{
@@ -36,7 +31,7 @@ nav {
   color: black;
   background-color:transparent;
   font-size: 50px;
-  font-family: 'Playfair Display', serif;
+  border: none;
 }
 .btn a {
  color:black;
@@ -55,15 +50,12 @@ nav {
     background-color:#F6B3AD;
     height: 60vh;
     width:120vh;
-    
 }
 
 section>div>p{
-    font-size:1.3vw;
-    margin-top: 2%;
-    font-family: 'Playfair Display', serif;
-   
+    font-size:20px;
 }
+
 section>div>h1{
     font-size:3em;
     font-family: 'Playfair Display', serif;
@@ -106,8 +98,9 @@ p{
 }
 
 .paragraph1{
-    margin-right: 15%;
+    margin-right: 15px;
     font-family: 'Playfair Display', serif;
+    margin-top:2%;
 }
 
 .container2{
@@ -136,8 +129,10 @@ p{
 }
 
 .paragraph2{
-    margin-left: 15%;
+    margin-left: 5px;
     font-family: 'Playfair Display', serif;
+    margin-top:2%;
+    margin-left:15%;
 }
 
 .img2{
@@ -147,13 +142,24 @@ p{
 
 @media only screen and (max-width:600px){
     
+    nav{
+        display:flex;
+        flex-direction: row;
+    }
+    
+    section>div>p{
+    font-size:15px;
+    margin-top: 2%;
+}
+    
     .block1{
-      font-size:4vw;  
+      font-size:20px;  
       min-width: 4vh;
     }
     
     .block2{
-        font-size:4vw;
+        font-size:20px;
+        height: 60vh;
     }
     .sub-block1{
         display:none;
@@ -162,5 +168,6 @@ p{
     .sub-block2{
         display:none;
     }
+    
     
 }
