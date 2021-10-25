@@ -178,6 +178,11 @@ h1:hover {
     color:black;
    text-decoration: underline;
 }
+h1:hover + .hide{
+    display:block;
+    color:black;
+   
+}
 }
 
 
