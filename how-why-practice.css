@@ -4,6 +4,19 @@ body{
     
 }
 
+nav {
+    /*position: fixed;*/
+    display: flex;
+    flex-direction:column;
+    padding-right:1500px;
+    height: 7vh;
+    position:fixed;
+    top:0px;
+    
+    /*padding-bottom: 200px;*/
+
+}
+
 .top-half{ 
     /*display: flex;*/
     background:url(DiversityGroup.jpg);
